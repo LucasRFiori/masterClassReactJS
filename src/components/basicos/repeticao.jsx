@@ -1,12 +1,12 @@
 import React from 'react'
 
-import produtos from './data/products'
+import produtos from '../data/products'
 export default props =>{
 
     function getProdutosListItem(){
         return produtos.map(prod => {
             return <li key={prod.id}>
-                {prod.id} - {prod.nome} ==> R$ {prod.preco}
+                {prod.id} - {prod.nome} == R$ {prod.preco}
                 </li>
         })
     }

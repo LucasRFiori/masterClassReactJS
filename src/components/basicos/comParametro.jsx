@@ -1,5 +1,5 @@
 import React from "react"
-
+//Props eh somente leitura
 export default props =>
     <>
         <h3>{props.titulo}</h3>
